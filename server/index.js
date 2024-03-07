@@ -80,7 +80,7 @@ app.post(
     let event, email;
     try {
       event = stripe.webhooks.constructEvent(req.body, sig, endpointSecret);
-      console.log("event: ",event);
+      console.log("event: ", event);
     } catch (err) {
       console.log("Err: ", err.message);
       res.status(400).send(`Webhook Error: ${err.message}`);
@@ -203,14 +203,14 @@ app.post(
 
         // ...
 
-        res.send("Mail sent.");
+        console.log("email sent");
       } catch (error) {
         console.error("Error creating user:", error.message);
       }
     }
 
     // Return a 200 response to acknowledge receipt of the event
-    res.status(200).send(email);
+    res.status(200).send("operation completed");
   }
 );
 
