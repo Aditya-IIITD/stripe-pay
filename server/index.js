@@ -18,7 +18,7 @@ app.post("/api/stripe", express.json(), async (req, res) => {
       line_items: [
         {
           price_data: {
-            currency: "inr",
+            currency: "USD",
             product_data: {
               name: `Sellerkin Plan- ${user.selectedPlan}`,
             },
