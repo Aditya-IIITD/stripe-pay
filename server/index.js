@@ -95,7 +95,7 @@ app.post(
       const session = event.data.object;
 
       // Access the customer's email
-      const customerEmail = session.customer_email;
+      const customerEmail = session.customer_details.email;
       email = customerEmail;
 
       // Do something with the customerEmail (e.g., send a confirmation email)
