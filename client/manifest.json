@@ -1,0 +1,11 @@
+{
+  "name": "Sellerkin",
+  "version": "0.0.0.1",
+  "description": "Keywords and products insight",
+  "manifest_version": 3,
+  "author": "Prajwal Dhule",
+  "permissions": ["https://sellerkinwebapp.azurewebsites.net/*"],
+  "action": {
+    "default_popup": "index.html"
+  }
+}

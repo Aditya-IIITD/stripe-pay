@@ -1,0 +1,19 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=functionapp11112gro9dc1;AccountKey=fukIfMcwNNel16lLmSQpbPTw+MBl0Yfxo9M2Ptm0pX/FiOD5YKL9mA2pNbq1MNHhf6Qx06obfWY8+ASt+cTwWg==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
+    "DB_USER": "sqladmin",
+    "DB_PASSWORD": "azUre@886",
+    "DB_SERVER_NAME": "mysqlserver886",
+    "DB_NAME": "mysampledb",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "WEBSITE_NODE_DEFAULT_VERSION": "~20",
+    "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=4f4566f1-8443-4b33-a709-4e149eceb202;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=125bf1dd-d7e8-4f0d-97ad-708b25295530",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=functionapp11112gro9dc1;AccountKey=fukIfMcwNNel16lLmSQpbPTw+MBl0Yfxo9M2Ptm0pX/FiOD5YKL9mA2pNbq1MNHhf6Qx06obfWY8+ASt+cTwWg==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE": "functionapp111129050",
+    "WEBSITE_RUN_FROM_PACKAGE": "1",
+    "SqlConnectionString": "Server=tcp:mysqlserver886.database.windows.net,1433;Initial Catalog=mysampledb;Persist Security Info=False;User ID=azureuser;Password=azUre@886;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  }
+}

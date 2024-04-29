@@ -1,0 +1,113 @@
+.listing-analyzer {
+  background-color: #f6f6f6;
+}
+.listing-analyzer .content {
+  padding-bottom: 1em;
+}
+.listing-analyzer .content .row-1 {
+  /* display: flex;
+  align-items: flex-start; */
+  /* justify-content: space-between; */
+  width: 100%;
+  margin-inline: auto;
+  padding: 2em 0;
+  border: 1px solid black;
+}
+
+.originalurl {
+  width: 27%;
+  text-align: center;
+  /* border: 2px solid green; */
+}
+.shortened {
+  width: 60%;
+  border-radius: 10px;
+  margin: 0 auto;
+  min-height: 50px;
+  padding: 0 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: rgb(219, 219, 219);
+}
+.smallurl {
+  /* border: 2px solid red; */
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.Export {
+  background-color: #5c00cd;
+  color: white;
+  /* Add any other styling you need */
+}
+
+.listOfUrls {
+  /* background-color: red; */
+}
+.listOfUrls > table {
+  margin: 50px auto;
+  /* border: 1px solid gray; */
+}
+.tablehead {
+  /* background-color: #e0f3fb; */
+  background-color: #a8e5fe;
+}
+.tablehead > th:nth-child(n + 1) {
+  padding: 10px 50px;
+  font-weight: 600;
+}
+
+.tablehead > th:first-child {
+  padding: 10px 10px;
+}
+
+.listOfUrls tbody {
+  text-align: center;
+  font-size: 13px;
+  background-color: #d3f2ff;
+}
+
+.listOfUrls tbody td {
+  /* background-color: rebeccapurple; */
+  padding: 10px;
+}
+
+.norecenturl {
+  /* background-color: royalblue; */
+}
+
+.deletebtn {
+  background-color: rgb(255, 71, 71);
+  /* border: 1px solid rgb(255, 71, 71); */
+  border: none !important;
+  color: white;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  font-weight: 600;
+}
+
+.analysisbtn {
+  transition: 0.2s;
+  background-color: rgb(255, 204, 0);
+  border: none !important;
+  font-weight: 600;
+}
+
+.deletebtn:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+  box-shadow: 0px 10px 10px -8px gray;
+}
+.analysisbtn:hover {
+  transition: 0.2s;
+  transform: scale(1.05);
+  box-shadow: 0px 10px 10px -10px gray;
+}

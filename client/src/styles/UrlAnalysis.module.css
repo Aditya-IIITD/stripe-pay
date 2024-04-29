@@ -1,0 +1,26 @@
+.urlanalysis {
+  border: 2px solid black;
+  padding: 20px;
+}
+.topcontainer {
+  display: flex;
+  /* border: 1px solid brown; */
+  align-items: center;
+  gap: 30px;
+  cursor: default;
+}
+
+.img {
+  height: 45px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 5px;
+  transition: 0.2s;
+}
+
+.img:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+  box-shadow: 0px 10px 10px -2px lightgray;
+}

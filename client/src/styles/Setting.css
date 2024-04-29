@@ -1,0 +1,83 @@
+.snavbar {
+  margin-left: 8px;
+  margin-top: 8px;
+  align-items: center;
+}
+.settings-container {
+  display: flex;
+  min-height: 100vh;
+  height: fit-content + 10vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.snavbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.snavbar li {
+  margin-bottom: 10px;
+}
+
+.snavbar a {
+  text-decoration: none;
+  color: #002239;
+  display: block;
+  padding: 8px;
+}
+
+.snavbar a:hover,
+.snavbar a.active {
+  background-color: #ccc;
+}
+
+.Setting_content {
+  flex: 1;
+  padding: 15px;
+  margin-left: 315px;
+}
+
+/* Styles for the buttons in the navigation bar */
+.snavbar ul {
+  list-style-type: none;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.snavbar li {
+  margin-right: 10px; /* Adjust spacing between buttons as needed */
+}
+
+.snavbar button {
+  padding: 8px 16px;
+  background-color: #0846d4; /* Change the background color */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.snavbar button:hover {
+  background-color: #316ffe; /* Change the background color on hover */
+}
+
+.setHead {
+  background-color: #0846d4;
+  color: white;
+  padding: 25px;
+  margin-top: -1px;
+  border-radius: 10px;
+}
+
+/* CSS for setting the active background color */
+.snavbar ul li button.active {
+  background-color: #5084ff;
+  /* Additional styles for the active button */
+}

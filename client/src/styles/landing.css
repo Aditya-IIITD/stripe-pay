@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.landing-body {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.landing-body* {
+  box-sizing: border-box;
+}
+.landing-body .box {
+  z-index: 2;
+  position: absolute;
+  border-radius: 25px;
+}
+.landing-body .box-1 {
+  height: 30vw;
+  width: 30vw;
+  background-color: #edf0e8;
+  transform: translate(-50%, 60%) rotateZ(45deg);
+}
+.landing-body .box-2 {
+  height: 30vw;
+  width: 30vw;
+  background-color: #e3e6ff;
+  right: 0;
+  transform: translate(50%, 25%) rotateZ(45deg);
+}
+.landing-body .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.landing-body .name img {
+  margin-right: 0.5em;
+  height: 4vh;
+}
+
+.landing-body .content {
+  height: 100vh;
+  /* border: 2px solid red; */
+  width: 100%;
+  /* padding: 0 3vw; */
+  display: flex;
+  justify-content: space-between;
+}
+.landing-body .content .left {
+  padding-top: 90px;
+  position: relative;
+  width: 50%;
+  z-index: 3;
+  text-align: center;
+  /* border: 2px solid purple; */
+}
+
+.left #logohome {
+  /* border: 2px solid red; */
+  transform: scale(5);
+  margin-bottom: 10px;
+}
+.landing-body .content .left h1 {
+  margin: 0;
+  margin-top: 0.75em;
+  font-size: 2.75rem;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+.landing-body .content .left p.desc {
+  font-size: 1.1rem;
+  margin: 0.7em 0 1.3em 0;
+}
+
+.landing-body .content .left .buttons {
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.formlogin {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formlogin input {
+  width: 100%;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 0.2px solid lightgray;
+}
+
+.formlogin input:hover {
+  outline: 1px solid gray;
+}
+
+.formlogin input:focus {
+  outline: 1px solid gray;
+}
+
+.googleauth {
+  display: flex;
+  gap: 10px;
+  width: 350px;
+  border: 0.2px solid lightgray;
+  padding: 13px;
+  transition: 0.2s;
+}
+
+.signup {
+  width: 350px;
+  color: white;
+  /* background-color: #084fb8; */
+  background-color: #004eeb;
+  border: none;
+  padding: 13px;
+  transition: 0.2s;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.landing-body .content .left .buttons button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 1rem;
+  /* padding: 1em 1.75em; */
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+}
+.landing-body .content .left .buttons a {
+  text-decoration: none;
+}
+.landing-body .content .left .buttons p {
+  font-weight: 600;
+}
+.landing-body .content .left .buttons .left-btn button {
+  color: white;
+  background-color: #084fb8;
+}
+.landing-body .content .left .buttons .right-btn {
+  margin-left: 2em;
+}
+.landing-body .content .left .buttons .right-btn button {
+  background-color: transparent;
+  border: 1px solid gray;
+}
+.landing-body .content .right {
+  /* padding-top: 10px; */
+  /* border: 2px solid red; */
+  position: relative;
+  z-index: 3;
+  height: 100%;
+  width: 50%;
+  /* background-color: #011955; */
+  background-image: url("../images/img4.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* border-radius: 6px; */
+}
+.landing-body .content .right img {
+  height: 90%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(-35%, 0%);
+} /*# sourceMappingURL=landing.css.map */
+
+.landing-body .content .left .buttons button:hover {
+  transform: scale(1.02);
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid black; */
+  padding-top: 40vh;
+}
